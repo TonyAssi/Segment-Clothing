@@ -13,16 +13,28 @@ pip install -r requirements.txt
 
 Import module
 ```python
-from Embed import create_dataset_embeddings
+from SegCloth import segment_clothing
 ```
 
-Generates image embeddings and upload to 🤗
-- **input_dataset** the source dataset
-- **out_dataset** the name of dataset that will be created and uploaded to
-- **token** HuggingFace write access token can be created [here](https://huggingface.co/settings/tokens)
+Import PIL
 ```python
-create_dataset_embeddings(input_dataset='tonyassi/fashion-decade-images-1',
-                          output_dataset='tonyassi/fashion-decade-images-1-embeddings',
-                          token='YOUR_TOKEN')
+from PIL import Image
+```
 
+Open image
+```python
+image = Image.open('image.jpg')
+```
+
+Segment Clothing
+- **img** input image of type PIL
+```python
+result = segment_clothing(img=image)
+```
+
+You can also explicitly specify which clothes to segment
+- **img** input image of type PIL
+- **clothes** list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
+```python
+result = segment_clothing(img=image, clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
 ```
