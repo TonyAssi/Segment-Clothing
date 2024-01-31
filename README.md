@@ -1,9 +1,7 @@
 # Segment Clothing
 Segment clothing with 1 line of code. 
 
-Takes in a PIL image and outputs a PIL image of segmented clothing. 
-
-Built on top of 🤗 Tranformers using the [mattmdjaga/segformer_b2_clothes](https://huggingface.co/mattmdjaga/segformer_b2_clothes) image segmentation model.
+Takes in a PIL image and outputs a PIL image of segmented clothing. Built on top of 🤗 Tranformers using the [mattmdjaga/segformer_b2_clothes](https://huggingface.co/mattmdjaga/segformer_b2_clothes) image segmentation model.
 ## Installation
 ```bash
 pip install -r requirements.txt
