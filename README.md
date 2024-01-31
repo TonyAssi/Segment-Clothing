@@ -30,6 +30,7 @@ Segment Clothing
 - **img** input image of type PIL
 ```python
 result = segment_clothing(img=image)
+result.save('segmented.png')
 ```
 
 You can also explicitly specify which clothes to segment
@@ -37,4 +38,5 @@ You can also explicitly specify which clothes to segment
 - **clothes** list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
 ```python
 result = segment_clothing(img=image, clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
+result.save('segmented.png')
 ```
