@@ -14,15 +14,12 @@ Import module
 from SegCloth import segment_clothing
 ```
 
-Import PIL
+Import PIL and open image
 ```python
 from PIL import Image
-```
-
-Open image
-```python
 image = Image.open('image.jpg')
 ```
+
 ![](https://cdn.discordapp.com/attachments/1120417968032063538/1202309847287345253/image-1.jpg?ex=65ccfd4d&is=65ba884d&hm=5411ab346668fea69ff2986cb5dab0b4fec042ff165a1d20724529125dbc535f&)
 ---
 
