@@ -32,7 +32,7 @@ Segment Clothing
 result = segment_clothing(img=image)
 result.save('segmented.png')
 ```
-![](https://cdn.discordapp.com/attachments/1120417968032063538/1202309847543185499/segmented-1.png?ex=65ccfd4d&is=65ba884d&hm=be1484ac852ef1b2043e3327c1f52a798a332862d323140f1f7a27317e87d3af&)
+![](https://cdn.discordapp.com/attachments/1120417968032063538/1202309847543185499/segmented-1.png?ex=65e8accd&is=65d637cd&hm=eed593adeca5b6d37ae2576499d5e142e4117f9c3f7bbd076d5cb575655e0efc&)
 
 You can also explicitly specify which clothes to segment
 - **img** input image of type PIL
