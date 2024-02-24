@@ -23,7 +23,7 @@ from PIL import Image
 image = Image.open('image.jpg')
 ```
 
-![](https://cdn.discordapp.com/attachments/1120417968032063538/1202309847287345253/image-1.jpg?ex=65ccfd4d&is=65ba884d&hm=5411ab346668fea69ff2986cb5dab0b4fec042ff165a1d20724529125dbc535f&)
+![](https://cdn.discordapp.com/attachments/1120417968032063538/1202309847287345253/image-1.jpg?ex=65e8accd&is=65d637cd&hm=f42cd1095001982434a3b05907409ef8d3a380a860a7c7e079ab82f558842697&)
 ---
 
 Segment Clothing
