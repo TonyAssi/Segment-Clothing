@@ -9,6 +9,11 @@ Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9
 ```bash
 pip install -r requirements.txt
 ```
+Python 3.9
+Transformers 4.37.2
+Torch 2.2.0
+Pillow 10.2.0
+NumPy 1.26.3
 
 ## Usage
 
