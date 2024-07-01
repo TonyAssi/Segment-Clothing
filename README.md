@@ -43,7 +43,7 @@ result.save('segmented.png')
 
 You can also explicitly specify which clothes to segment
 - **img** input image of type PIL
-- **clothes** list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
+- **clothes** (optional) list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
 ```python
 result = segment_clothing(img=image, clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
 result.save('segmented.png')
@@ -53,7 +53,7 @@ result.save('segmented.png')
 
 - **img_dir** image folder
 - **out_dir** output folder where the segmented images will go
-- **clothes** list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
+- **clothes** (optional) list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
 ```python
 batch_segment_clothing(img_dir="images", out_dir="output", clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
 ```
