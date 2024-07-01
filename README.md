@@ -48,3 +48,12 @@ You can also explicitly specify which clothes to segment
 result = segment_clothing(img=image, clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
 result.save('segmented.png')
 ```
+
+### Batch Segment Clothing
+
+- **img_dir** image folder
+- **out_dir** output folder where the segmented images will go
+- **clothes** list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
+```python
+batch_segment_clothing(img_dir="images", out_dir="output, clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
+```
