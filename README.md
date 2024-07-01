@@ -55,5 +55,5 @@ result.save('segmented.png')
 - **out_dir** output folder where the segmented images will go
 - **clothes** list of strings. by default ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"]
 ```python
-batch_segment_clothing(img_dir="images", out_dir="output, clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
+batch_segment_clothing(img_dir="images", out_dir="output", clothes= ["Hat", "Upper-clothes", "Skirt", "Pants", "Dress", "Belt", "Left-shoe", "Right-shoe", "Scarf"])
 ```
