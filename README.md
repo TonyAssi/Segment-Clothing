@@ -5,6 +5,8 @@ Takes in a PIL image and outputs a PIL image of segmented clothing. Built on top
 
 Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/tonyassi/clothing-segmentation)
 
+<img width="768" height="455" alt="Screenshot 2025-11-26 at 1 26 53 PM" src="https://github.com/user-attachments/assets/a57555d5-40dc-4e5d-bc79-baec5d4a9fe8" />
+
 ## Installation
 ```bash
 pip install -r requirements.txt
